@@ -1,86 +1,169 @@
-body{
-    padding-top: 12px;
+*{
+    padding: 0;
+    margin: 0;
 }
-.frontpage{
+header{
     background-color: #422F81;
-    color: #F9F7FF;
-    padding-top: 2px;
 }
-h1{
-    position: absolute;
-width: 486px;
-height: 179px;
-left: 140px;
-top: 319px;
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 90px;
-line-height: 105.9%;
-/* or 95px */
-
-
-color: #F9F7FF;
-}
-.Vector1{
-    position: absolute;
-    width: 39px;
-    height: 42px;
-    left: 169px;
-    top: 313px;
-}
-.button1{
-    position: absolute;
-    width: 177px;
-    height: 50px;
-    left: 1123px;
-    top: 45px;
-    color: #F9F7FF;
-    background: #B9A8F0;
-    border-radius: 5px;
-    border:transparent;
-}
-.headerLink{
+ul{
     display: flex;
-    gap: 5%;
-    position: relative;
-    left: 34%;
-    bottom: 28px;
+    justify-content: space-between;
+    width: 34%;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 li{
     list-style: none;
+    position: relative;
+    left: 29%;
 }
 a{
-    text-decoration: none;
     color: #F9F7FF;
-    font-family:sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    height: 5px;
-    width: 63px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 50px;
 }
-body {
-    margin:0;
-    padding: 0;
+.button1{
+    color: #FFFFFF;
+    width: 177px;
+    height: 50px;
+    background-color: #B9A8F0;
+    border-radius: 6px;
+    border: transparent;
+    position: absolute;
+    left: 80%;
 }
-span{
-    font-weight: 800;
+b{
+    font-weight: 600;
     font-size: larger;
 }
-h3{
+.navlogo{
     font-weight: lighter;
     height: 41px;
     width: 124px;
     position: relative;
-    left: 140px;
-    top: 20px;
+    left: 110px;
+    top: 52px;
     font-family:Sans-serif;
+    color: #F9F7FF;
 }
-.image2InCircle{
-   border-radius: 25px;
-   position: absolute;
-   left: 82%;
-   right: 15.22%;
-   top: 7.02%;
+.part-one{
+    margin-top:25px
 }
+.image2{
+    position: relative;
+    left: 53%;
+    bottom: 275px;
+}
+.first{
+    width: 39px;
+    height: 42px;
+    border-top: 4px solid #F9F7FF;
+    border-left: 4px solid #F9F7FF;
+    padding: 7px;
+    position: relative;
+    left: 97px;
+    top: 168px;
+}
+h1{
+    color: #F9F7FF;
+    position: relative;
+    width: 500px;
+    height: 179px;
+    left: 130px;
+    top: 118px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105.9%;
+}
+.box{
+    display: grid;
+    height: 90px;
+    width: 100px;
+    border: 2px thick transparent;
+    gap: 5px;
+    position: relative;
+    left: 50.8%;
+    top: 133px;
+
+}
+.box1{
+    display: grid;
+    height: 90px;
+    width: 102px;
+    border: 2px thick transparent;
+    gap: 5px;
+    position: relative;
+    left: 67%;
+    top: 125px;
+
+}
+.profilePictures{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.image1{
+    width: 255px;
+    height: 350px;
+    float: right;
+    position: relative;
+    bottom: 260px;
+    right: 5%;
+}
+.image2{
+    width: 260px;
+    height: 359px;
+}
+.h1Para{
+    color: #F9F7FF;
+    position: absolute;
+    left: 10%;
+    top: 93.5%;
+    font-size: 120%;
+
+}
+.button2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 140px;
+    top: 700px;
+    border: 1.5px solid transparent;
+    background-color: #F9F7FF;
+    border-radius: 5px;
+}
+.button3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 320px;
+    top: 700px;
+    color: #F9F7FF;
+    background-color: transparent;
+    border: 1.5px solid #F9F7FF;
+    border-radius: 5px;
+}
+.profilePicture1{
+    position: relative;
+    left: 87%;
+    bottom: 700px; 
+}
+.profilePicture2{
+    position: absolute;
+    left: 50.04%;
+    top: 700px;
+    
+}
+.profilePicture3{
+    position: absolute;
+    left: 50.04%;
+    top: 770px;
+    
+}
+
